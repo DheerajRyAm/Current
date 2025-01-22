@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 import time
-import matplotlib.pyplot as plt  # Add this import at the top of your script
+import matplotlib.pyplot as plt  
 
 ticket = "AMZN"
 data = yf.download(ticket)
